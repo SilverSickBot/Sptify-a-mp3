@@ -25,16 +25,5 @@ Durante la fase de desarollo experimente diferentes errores ya que lo que hacia 
 
 
 script :
-> from spotdl import Spotdl
-> from pathlib import Path
->
->downloader = Spotdl(
->    client_id='#client id',
->    client_secret='#client secret'
->)
->songs_query = downloader.search(['spotify/youtube'])
->
->for song in songs_query:
->    downloader.download(song)
->
+> se realizo este script gracias a la libreria sportdl
 ![script](image.png). 
